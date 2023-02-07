@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+h1{
+    color:yellow;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#table{
+    
+}
+#row{
+    display: flex;
+    justify-content: center;
+}
+.place{
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+}
+.img-x{
+    background-image: url('image-x-solid.png');
+    background-size: 0%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-o{
+    background-image: url('image-o.png');
+    background-size: 0%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
